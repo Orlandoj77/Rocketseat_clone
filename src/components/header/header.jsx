@@ -1,11 +1,13 @@
 import React from "react";
-import { LogoHock } from "./Style";
+
 
 
 function Header() {
     return (
-        <div>
-            <LogoHock>ROCKETSEAT</LogoHock>
+        <div >
+            <h2>ROCKETSEAT</h2>
+            <p>Manifesto</p>
+            <input type="button" value="ENTRAR" />
         </div>
     );
 }
