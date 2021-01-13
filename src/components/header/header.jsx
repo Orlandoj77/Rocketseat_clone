@@ -1,14 +1,17 @@
 import React from "react";
-
-
+import "./Style";
+import { Title, Entrar, Div1, Manifesto } from "./Style";
 
 function Header() {
     return (
-        <div >
-            <h2>ROCKETSEAT</h2>
-            <p>Manifesto</p>
-            <input type="button" value="ENTRAR" />
-        </div>
+        <Div1 >
+            <div><Title>rocketseat</Title>
+            </div>
+
+            <Manifesto>Manifesto</Manifesto>
+
+            <Entrar>ENTRAR</Entrar >
+        </Div1>
     );
 }
 
