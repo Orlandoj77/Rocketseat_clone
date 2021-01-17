@@ -1,14 +1,16 @@
 import React from "react";
 import "./Style";
-import { Title, Entrar, Div1, Manifesto } from "./Style";
+import { Title, Entrar, Div1, Manifesto, Div2 } from "./Style";
 
 function Header() {
     return (
         <Div1 >
-            <div><Title>rocketseat</Title>
-            </div>
+            <Div2>
+                <Title>rocketseat</Title>
+                <Manifesto>Manifesto</Manifesto>
+            </Div2>
 
-            <Manifesto>Manifesto</Manifesto>
+
 
             <Entrar>ENTRAR</Entrar >
         </Div1>
