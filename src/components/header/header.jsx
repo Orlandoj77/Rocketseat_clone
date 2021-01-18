@@ -1,17 +1,15 @@
 import React from "react";
 import "./Style";
-import { Title, Entrar, Div1, Manifesto, Div2 } from "./Style";
+import { Entrar, Div1, Manifesto, Div2, Image } from "./Style";
+import logo from "../../assets/logo.png";
 
 function Header() {
     return (
         <Div1 >
             <Div2>
-                <Title>rocketseat</Title>
+                <Image src={logo} />
                 <Manifesto>Manifesto</Manifesto>
             </Div2>
-
-
-
             <Entrar>ENTRAR</Entrar >
         </Div1>
     );
