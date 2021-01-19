@@ -32,7 +32,7 @@ border-radius:6px;
 background:#8257E6;
 justify-content:center;
 display:flex;
-padding:15px 32px;
+padding:25px 60px;
 font-size: 14px;
 color:white;
 &:hover {
@@ -43,7 +43,7 @@ color:white;
 export const Paragra = styled.div`
 text-align: right;
 max-width: 400px;
-padding: 0px 20px;
+padding: 5px 6px;
 font-family:Helvetica, Arial, sans-serif;
 font-size:18px;
 
