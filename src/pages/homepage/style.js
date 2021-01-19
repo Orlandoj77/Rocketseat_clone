@@ -4,11 +4,11 @@ export const Titulo = styled.h1`
 
 
 font-family:Helvetica, Arial, sans-serif;
-font-size: 48px;
-    line-height: 1;
+font-size: 64px;
+    line-height:1;
     text-align: center;
     font-weight: 700;
-    width: 100%;
+    width: 200%;
     max-width: 615px;
    padding:120px 0px 0px;
    color:#E1E1E6;

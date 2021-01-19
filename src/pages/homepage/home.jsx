@@ -7,7 +7,7 @@ function Home() {
     return (
         <div >
 
-            <Titulo>Evolua rápido como a tecnologia.</Titulo>
+            <Titulo>Evolua rápido como <br /> a tecnologia.</Titulo>
             <DivHome>
                 <Paragra>Junte-se a milhares de devs e acelere na direção dos seus objectivos </Paragra>
                 <div>
